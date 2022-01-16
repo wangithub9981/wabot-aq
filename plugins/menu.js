@@ -33,19 +33,17 @@ const defaultMenu = {
 ╭─「 %me 」
 │ Hai, %name!
 │
-│ Tersisa *%limit Limit*
-│ Role *%role*
-│ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
-│ %totalexp XP in Total
-│ 
-│ Tanggal: *%week %weton, %date*
-│ Tanggal Islam: *%dateIslamic*
-│ Waktu: *%time*
-│
-│ Uptime: *%uptime (%muptime)*
-│ Database: %rtotalreg of %totalreg
-│ Github:
-│ %github
+│ Limit: %limit
+│ Role: %role
+│ Level: %level
+│ Tanggal: %week, %date
+│ Waktu: %time
+│ Uptime: %uptime
+│ User: %rtotalreg dari %totalreg
+╰────
+
+╭─「 Group 」
+https://chat.whatsapp.com/CvD00DRlIW5BREtxJKFiF7
 ╰────
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
